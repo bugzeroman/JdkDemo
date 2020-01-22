@@ -1,4 +1,4 @@
-package edu.yuwen.java.operation.shift;
+package edu.java.operation.shift;
 
 /**
  *  1.测试Java的移位操作:

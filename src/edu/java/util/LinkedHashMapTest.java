@@ -1,4 +1,4 @@
-package edu.yuwen.java.util;
+package edu.java.util;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

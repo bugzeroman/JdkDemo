@@ -1,4 +1,4 @@
-package edu.yuwen.java.lang.integer;
+package edu.java.lang.integer;
 
 /**
  * 测试Integer各种进制的转换
