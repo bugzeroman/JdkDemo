@@ -9,11 +9,22 @@ package edu.java.operation.shift;
  */
 public class ShiftingLeftRightTest {
     public static void main(String[] args) {
-        // 十进制10对应二进制:1010 高位在左边，地位在右边
+        leftShift();
+    }
+
+    /**
+     * 左移<<
+     */
+    public static void leftShift() {
+        // 十进制10对应二进制:1010 高位在左边，低位在右边
         System.out.println(Integer.toBinaryString(10));
         // 十进制20对应二进制:10100
         System.out.println(Integer.toBinaryString(10 << 1));
         // 十六进制0x7fffffff对应二进制1111111111111111111111111111111
         System.out.println(Integer.toBinaryString(Integer.MAX_VALUE));
+        // 左移1位
+        System.out.println(Integer.toBinaryString(Integer.MAX_VALUE << 1));
+        // 左移2位
+        System.out.println(Integer.toBinaryString(Integer.MAX_VALUE << 2));
     }
 }
